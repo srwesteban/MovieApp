@@ -1,0 +1,41 @@
+
+.title {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: aliceblue;
+  margin: 0px;
+}
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+form{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+input[type='text']{
+  font-size: medium;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+button{
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(151, 51, 238, 0.653);
+  cursor: pointer;
+  transition: all 1s ease;
+  margin: 0 6px;
+  color: azure;
+
+}
+button:hover{
+  background-color: rgb(113, 17, 238);
+}
