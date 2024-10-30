@@ -45,14 +45,13 @@ export const MovieApp = () => {
       </form>
       {movieList &&
         <div className="movie-list">
-          {movieList.map(movie => {
-
+          {movieList.map(movie => (
               <div key={movie.id} className="movie-card">
                   <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title}/>
                   <h2>{movie.title}</h2>
-                  <p>{movie.overwiew}</p>
+                  <p>{movie.overview}</p>
               </div>
-          })}
+          ))}
         </div>
       }
     </div>
